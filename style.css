@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+
+.cabecalho{
+    display: flex;
+    /* FAZ UM ESPAÇAMENTO PARA CADA ITEM */
+    justify-content: space-between;
+    /* ADICIONAR COR AO FUNDO */
+    background-color: rgb(42, 42, 103);
+    color: aliceblue;
+    /* ESPAÇAMENTO INTERNO */
+    padding: 20px;
+}
+
+
+.cabecalho a{
+    /* TIRAR O SUBLIADO DO LINK -> none */
+    text-decoration: none;
+    /* POR ESTAR SE REFERINDO A TAG <A>, MUDA A COR DO LINK */
+    color: white;
+}
+
+.cartao{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
+
+
+.item-cartao{
+    background-color: rgb(127, 208, 210);
+    text-align: center;
+    /* PARA AUMENTAR O TAMANHO DO QUADRADO */
+    padding: 20px;
+    /* PARA DEIXAR OS ITENS COM ESPAÇAMENTO */
+    margin: 10px;
+    /* ARREDONDAR AS BORDAS */
+    border-radius: 10px;
+}
+
+.cursos{
+    /* DEIXAR O TEXTO NO CENTRO */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    justify-content: center;
+    
+}
